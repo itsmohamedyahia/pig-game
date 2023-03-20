@@ -111,7 +111,7 @@ function renderDice(rndm) {
   document.getElementsByClassName('dice')[0].style.display = 'block';
   document
     .getElementsByClassName('dice')[0]
-    .setAttribute('src', `dice-${rndm}.png`);
+    .setAttribute('src', `assets/pics/dice-${rndm}.png`);
 }
 
 function renderCurrent(current) {
